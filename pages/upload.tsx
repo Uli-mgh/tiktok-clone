@@ -65,7 +65,10 @@ const Upload = () => {
         topic: category,
       };
 
-      await axios.post("http://localhost:3000/api/post", document);
+      await axios.post(
+        `${process.env.NEXT_PUBLICK_BASE_URL}/api/post`,
+        document
+      );
       router.push("/");
     }
   };
