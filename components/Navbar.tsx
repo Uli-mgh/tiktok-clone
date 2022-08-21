@@ -24,7 +24,7 @@ const Navbar = () => {
           <Image
             className="cursosr-pointer"
             src={Logo}
-            alt="TikTik"
+            alt="TikTok"
             layout="responsive"
           />
         </div>
